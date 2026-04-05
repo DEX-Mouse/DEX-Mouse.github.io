@@ -254,13 +254,13 @@ body {
 }
 
 .results-carousel {
-  overflow: hidden;
+  overflow: visible;
   padding: 1rem 0;
 }
 
 .results-carousel .item {
   margin: 1rem;
-  overflow: hidden;
+  overflow: visible;
   padding: 1.5rem;
   font-size: 0;
   background: var(--background-primary);
@@ -751,6 +751,7 @@ a:focus {
 
 /* Video Caption Styles */
 .video-caption {
+  display: block;
   text-align: center;
   font-size: 0.95rem;
   color: var(--text-secondary);
@@ -758,6 +759,30 @@ a:focus {
   padding: 0.5rem 1rem;
   font-style: italic;
   line-height: 1.5;
+}
+
+.video-with-caption {
+  position: relative;
+}
+
+.video-with-caption video {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.video-with-caption .video-caption {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: normal;
+  padding: 0.6rem 1.2rem;
+  margin: 0;
+  z-index: 10;
+  backdrop-filter: blur(4px);
 }
 
 /* Success Criteria Section */
