@@ -254,13 +254,13 @@ body {
 }
 
 .results-carousel {
-  overflow: hidden;
+  overflow: visible;
   padding: 1rem 0;
 }
 
 .results-carousel .item {
   margin: 1rem;
-  overflow: hidden;
+  overflow: visible;
   padding: 1.5rem;
   font-size: 0;
   background: var(--background-primary);
