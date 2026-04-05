@@ -749,17 +749,6 @@ a:focus {
   }
 }
 
-/* Video Caption Styles */
-.video-caption {
-  text-align: center;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  margin-top: 0.75rem;
-  padding: 0.5rem 1rem;
-  font-style: italic;
-  line-height: 1.5;
-}
-
 /* Success Criteria Section */
 .success-criteria-section {
   padding: 4rem 0;
