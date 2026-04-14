@@ -221,34 +221,32 @@
                   <div class="column has-text-centered">
                     <div class="publication-links">
                       <span class="link-block">
-                        <a href="static/pdfs/sample.pdf" target="_blank"
+                        <a href="#" onclick="event.preventDefault(); alert('Coming soon');"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Paper (Coming Soon)</span>
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="#" onclick="event.preventDefault(); alert('Coming soon');"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-tools"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Build Guide (Coming Soon)</span>
                     </a>
                   </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="" target="_blank"
+                    <a href="#" onclick="event.preventDefault(); alert('Coming soon');"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (Coming Soon)</span>
                   </a>
                 </span>
 
@@ -281,7 +279,7 @@
       </video>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        DEX-Mouse is a portable, calibration-free teleoperation interface that lets diverse operators collect dexterous manipulation demonstrations with various robot hands, which can then be deployed directly on real robots.
       </h2>
     </div>
   </div>
@@ -297,7 +295,13 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-          Data-driven approaches for dexterous hand manipulation require large-scale, high-quality demonstration data that is physically consistent with the target robot. Existing methods based on simulation or video suffer from sim-to-real gaps and retargeting problems, while MoCap glove-based teleoperation systems require per-user calibration and are difficult to relocate. Portable hand-held alternatives improve mobility but lack compatibility across different robot platforms and users. We present DEX-Mouse, a portable, calibration-free teleoperation interface with integrated kinesthetic force feedback, built from commercial off-the-shelf components at a total cost under USD 150. A target robot hand mounted on the forearm of the operator directly captures demonstrations from the target robot, producing robot-aligned data without retargeting. The user-agnostic design requires no peruser calibration or structural modification, enabling immediate deployment across diverse environments and robot platforms. In a comparative user study across various dexterous manipulation tasks, operators using DEX-Mouse achieved an 81.3% task completion rate, outperforming higher-priced commercial alternatives while reducing the perceived workload of operators. The complete hardware and software stack, including bill of materials, CAD models, and firmware, is open-sourced to facilitate replication and adoption.  
+          Data-driven dexterous hand manipulation requires large-scale, physically consistent demonstration data. Simulation and video-based methods suffer from sim-to-real gaps, while MoCap glove systems require per-operator calibration and lack portability, as the robot hand is typically fixed to a stationary arm. Portable alternatives improve mobility but lack cross-platform and cross-operator compatibility.
+          </p>
+          <p>
+          We present DEX-Mouse, a portable, calibration-free hand-held teleoperation interface with integrated kinesthetic force feedback, built from commercial off-the-shelf components under USD~150. The interface supports a configuration in which the target robot hand is mounted directly on the forearm of an operator, producing robot-aligned data without retargeting. The operator-agnostic design requires no calibration or structural modification, enabling immediate deployment across diverse environments and platforms.
+          </p>
+          <p>
+          In a comparative user study across various dexterous manipulation tasks, operators using the proposed system achieved an 86.67% task completion rate, outperforming higher-priced commercial alternatives. Also, we found that the attached configuration reduced the perceived workload of the operators compared to spatially separated teleoperation setups across all compared interfaces. The complete hardware and software stack, including bill of materials, CAD models, and firmware, is open-sourced to facilitate replication and adoption.
           </p>
         </div>
       </div>
